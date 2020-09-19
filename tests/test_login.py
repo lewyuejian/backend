@@ -7,8 +7,8 @@
 '''
 import requests
 def test_login():
-    username='seveniruby'
-    password='hogwarts'
+    username='taikong'
+    password='123456'
     r=requests.post(
         'http://127.0.0.1:5000/login',
         json={
